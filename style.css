@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:aquamarine;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#board{
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+}
