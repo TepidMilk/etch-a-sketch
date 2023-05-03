@@ -1,5 +1,5 @@
 const pixel = document.createElement('div')
-const boardSpace = document.querySelector('.board')
+const boardSpace = document.querySelector('#board')
 
 pixel.classList.add('pixel')
 function createBoard(){
