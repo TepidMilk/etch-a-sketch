@@ -15,15 +15,18 @@ body{
     width: 500px;
     border-style: solid;
     border-color: black;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ui{
     display: flex;
     flex-direction: column;
+    
 }
 
 .pixel{
-
+    flex: 1;
+    flex-basis: auto;
 }
