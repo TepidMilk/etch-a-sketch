@@ -14,19 +14,11 @@ body{
     height: 500px;
     width: 500px;
     border: 5px solid black;
-    display: flex;
-    align-content: stretch;
-    flex-wrap: wrap;
-    gap: 0px;
+    display: grid;
 }
 
 .ui{
     display: flex;
     flex-direction: column;
-    
 }
-
-.pixel {
-    flex: 1;
-  }
 
