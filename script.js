@@ -10,8 +10,8 @@ size.addEventListener('mousemove', function(){
     createBoard(size.value);
 });
 
-function createBoard(size){
-    let area = (size ** 2)
+function createBoard(value){
+    let area = (value ** 2)
     for(i = 1; i <= area; i++){
         let pixel = document.createElement('div');
         pixel.textContent = 'Div' + i;
