@@ -20,4 +20,4 @@ function createBoard(value){
     };
 }
 
-createBoard(16)
+createBoard(2)
